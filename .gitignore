@@ -1,0 +1,5 @@
+/.venv
+/app.py
+/data.csv
+/README.md
+/requirements.txt

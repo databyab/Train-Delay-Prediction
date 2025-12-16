@@ -53,6 +53,8 @@ The final Random Forest model has been saved as `model.pkl` using `joblib` for f
 ## Streamlit Application
 A Streamlit application (`app.py`) has been provided to interact with the trained model. This application allows users to input various parameters and receive a predicted train delay.
 
+Live Demo: https://train-delay-prediction-databyab.streamlit.app/
+
 ### How to Run the Streamlit App:
 1.  Save the generated Streamlit code into a file named `app.py`.
 2.  Install Streamlit: `pip install streamlit`
@@ -66,4 +68,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost catboost joblib
 
 ## Usage
 1.  Run through the Jupyter Notebook cells to preprocess the data, train the models, and save the best model.
+
 2.  Use the `app.py` Streamlit script to interact with the deployed model for delay predictions.
